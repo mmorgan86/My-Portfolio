@@ -1,0 +1,108 @@
+body {
+    background-color: rgba(243, 243, 243, 0.945);
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+/** Navbar button color**/
+a {
+    color: white;
+}
+
+nav {
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0;
+}
+
+#skills, #portfolio {
+    padding-top: 100px;
+}
+
+#contact {
+    padding: 80px;
+}
+
+.containerNav {
+    width: 1000px;
+    color: white
+}
+
+.containerBody {
+    background-color: white;
+    width: 1000px;
+    padding: 0 90px;
+}
+
+#about {
+    margin: 0;
+    padding-top: 150px;
+}
+
+.profilePic {
+    inline-size: 200px;
+    border-radius: 50%;
+    text-align: right;
+}
+
+.skills {
+    padding: 0 400px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+blockquote{
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.conrad{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.contactIntro {
+    margin: 0 auto;
+}
+
+#contactForm {
+    margin: 0 auto;
+}
+
+.lineBreak {
+    border-top: 2px solid rgb(119, 116, 116);
+    width: 50%;
+}
+
+/**
+.footer {
+    height: 50px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+**/
+
+#footer-bottom {
+    color: white;
+    background-color: black;
+    padding: 25px 0;
+    text-align: center;  
+    font-size: 15px;  
+}
+
