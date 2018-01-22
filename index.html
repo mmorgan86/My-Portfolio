@@ -46,16 +46,16 @@
     </nav>
 
     <section id="about">
-        <div class="conatainer aboutIntro">
+        <div class="conatainer">
             <div class="row">
-                <P class="aboutIntro col-md-8 col-sm-12"> Hi, My name is Michael Morgan.
+                <P class="aboutIntro col-sm-8 col-xs-12"> Hi, My name is Michael Morgan.
                 I am a highly creative and dependable Junior Web Developer with a impeccable customer service record and superb work ethic.
                 Broadly and well verse in many different computer languages as well as the principles and techniques of website maintenance
                 and construction. Highly adept at conveying complex technical information to a variety of professional and lay audiences
                 in a clear and understandable manner.
                 </P>
     
-                <div class="col-md-4 col-sm-12">
+                <div class="col-sm-4 col-xs-12">
                     <img class="profilePic" src="images/michaelMorgan.jpg" alt="A Picture of Michael Morgan">
                 </div>
             </div>    
@@ -68,8 +68,8 @@
                 My skills
                 </h2>
                 <hr class="lineBreak">
-                    <p>
-                        <ul class="columns skills">
+                    <p class="skills">
+                        <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>bootstrap</li>
@@ -81,32 +81,36 @@
         </div>
     </section>
 
-    <section id="portfolio",>
-        <h2>Portfolio</h2>
-        <hr class="lineBreak">
-        <div class="portfolioImages">
+    <section id="portfolio">
+        <div class="container">
             <div class="row">
-                <div class="column col-md-6 col-sm-12">
-                    <div class="thumbnail">
-                        <img src="images/EmmittSmithTribute.png" 
+                <h2>Portfolio</h2>
+                <hr class="lineBreak">
+                <div class="portfolioImages">
+                    <div class="row">
+                        <div class="column col-md-6 col-sm-12">
+                            <div class="thumbnail">
+                                <img src="images/EmmittSmithTribute.png" 
                         alt="Michael Morgan Emmitt Smith Tribute Page created with HTML and CSS.">
+                            </div>
+                        </div>
+                        <div class="column col-md-6 col-sm-12">
+                            <div class="thumbnail">
+                                <img src="images/ToDoList.png">
+                            </div>
+                        </div>
+                        <div class="column col-md-6 col-sm-12">
+                            <div class="thumbnail">
+                                <img src="images/comingSoon.jpg">
+                            </div>
+                        </div>
+                        <div class="column col-md-6 col-sm-12">
+                            <div class="thumbnail">
+                                <img src="images/comingSoon.jpg">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="column col-md-6 col-sm-12">
-                    <div class="thumbnail">
-                        <img src="images/ToDoList.png">
-                    </div>
-                </div>
-                <div class="column col-md-6 col-sm-12">
-                    <div class="thumbnail">
-                        <img src="images/comingSoon.jpg">
-                    </div>
-                </div>
-                <div class="column col-md-6 col-sm-12">
-                    <div class="thumbnail">
-                        <img src="images/comingSoon.jpg">
-                    </div>
-                </div>
+                </div>        
             </div>                                                  
         </div>
 
@@ -126,32 +130,36 @@
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>     
-        <hr class="lineBreak">
-        <div class="contactIntro column col-md-6 col-sm-12">
-            If you want to contact me for a copy of my resume or if you have any questions. 
-            Please don't hesitate to send me a message and 
-            I will reply to you as soon as possible. 
-            <br>
-            Thanks for your time.
-        </div>
-        <form id="contactForm" class="column col-md-6 col-sm-12" action="">
-            <div class="formItem">
-                <label for="name">Name:</label>
-                <input type="text" name="Name" required>
+        <div class="container">
+            <div class="row">
+                <h2>Contact Me</h2>     
+                <hr class="lineBreak">
+                <div class="contactIntro column col-sm-6 col-xs-12">
+                    If you want to contact me for a copy of my resume or if you have any questions. 
+                    Please don't hesitate to send me a message and 
+                    I will reply to you as soon as possible. 
+                    <br>
+                        Thanks for your time.
+                </div>
+                <form id="contactForm" class="col-sm-6 col-xs-12" action="">
+                    <div class="formItem">
+                        <label for="name">Name:</label>
+                        <input type="text" name="Name" required>
+                    </div>
+                    <div class="formItem">
+                        <label for="email">Email:</label>
+                        <input type="email" name="Email" required>
+                    </div>
+                    <div class="formItem">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" columns="5" required></textarea>
+                    </div>
+                    <div class="formItem">
+                        <input type="submit" value="Submit">
+                    </div>    
+                </form>
             </div>
-            <div class="formItem">
-                <label for="email">Email:</label>
-                <input type="email" name="Email" required>
-            </div>
-            <div class="formItem">
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" columns="5" required></textarea>
-            </div>
-            <div class="formItem">
-                <input type="submit" value="Submit">
-            </div>    
-        </form>
+        </div>        
     </section>
     
 </div>

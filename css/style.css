@@ -26,27 +26,23 @@ h2 {
     padding-top: 100px;
 }
 
-#contact {
-    padding: 80px;
-}
-
 #about {
-    margin: 0;
     padding-top: 150px;
 }
 
 .profilePic {
+    display: block;
+    float: left;
     inline-size: 200px;
     border-radius: 50%;
 }
 
 #skills {
-    padding: 0 400px;
     text-align: center;
 }
 
 .row {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 }
 
@@ -54,21 +50,16 @@ blockquote{
     font-size: 30px;
     width: 90%;
     text-align: center;
-    margin: 0;
     padding-top: 10%;
 }
 
 .conrad{
     text-align: right;
-    margin: 0;
-    padding: 0;
 }
 
-.contactIntro {
-    margin: 0 auto;
-}
-
-#contactForm {
+.contactIntro, #contactForm {
+    display: block;
+    flex: wrap;
     margin: 0 auto;
 }
 
@@ -95,3 +86,7 @@ blockquote{
     font-size: 15px;  
 }
 
+section{
+    width: 90%;
+    margin: 0 auto;
+}
