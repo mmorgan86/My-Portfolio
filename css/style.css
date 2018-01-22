@@ -30,17 +30,6 @@ h2 {
     padding: 80px;
 }
 
-.containerNav {
-    width: 1000px;
-    color: white
-}
-
-.containerBody {
-    background-color: white;
-    width: 1000px;
-    padding: 0 90px;
-}
-
 #about {
     margin: 0;
     padding-top: 150px;
@@ -49,11 +38,11 @@ h2 {
 .profilePic {
     inline-size: 200px;
     border-radius: 50%;
-    text-align: right;
 }
 
-.skills {
+#skills {
     padding: 0 400px;
+    text-align: center;
 }
 
 .row {
