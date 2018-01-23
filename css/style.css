@@ -7,7 +7,7 @@ body {
 
 /** Navbar button color**/
 a {
-    color: white;
+    color: blue;
 }
 
 nav {
@@ -95,4 +95,10 @@ section{
 
 section:nth-child(odd) {
     background: rgb(184, 184, 187);
+}
+
+.social {
+    color: black;
+    display: inline-block;
+    
 }
