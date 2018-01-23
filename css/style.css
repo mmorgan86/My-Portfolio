@@ -34,8 +34,8 @@ h2 {
     display: block;
     text-align: center;
     height: auto;
-    width: 200px;
-    border-radius: 50%;
+    width: 300px;
+    border-radius: 10%;
 }
 
 #skills {
