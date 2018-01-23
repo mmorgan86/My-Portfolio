@@ -88,6 +88,11 @@ blockquote{
 }
 
 section{
-    width: 90%;
+    width: 100;
     margin: 0 auto;
+    padding: 1em;
+}
+
+section:nth-child(odd) {
+    background: rgb(184, 184, 187);
 }
