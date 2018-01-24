@@ -97,8 +97,10 @@ section:nth-child(odd) {
     background: rgb(184, 184, 187);
 }
 
+
+
 .social {
     color: black;
-    display: inline-block;
-    
+    box-sizing: border-box;
 }
+
