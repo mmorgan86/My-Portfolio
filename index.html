@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Morgan Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
 
-<!-- nav bar -->    
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navBar" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#top">MICHAEL MORGAN</a>
+    <!-- nav bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navBar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">Michael Morgan</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="navBar">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#about">ABOUT</a>
+    </nav>
+
+    <!-- Main Area -->
+    <main id="main" class="container">
+        <!-- About Section -->
+        <section id="about" class="container">
+            <ul class="aboutUl">
+                <li class="profile-pic col-md-4 col=sm-12">
+                    <img class="profilePic" src="images/michaelMorgan.jpg" alt="A Picture of Michael Morgan">
                 </li>
-                <li>
-                    <a href="#skills">SKILLS</a>
-                </li>
-                <li>
-                    <a href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="#contact">CONTACT</a>
+                <li class="content-text col-md-8 col-sm-12">
+                    <p>Hi, My name is Michael Morgan. I am a highly creative and dependable Junior Web Developer with a impeccable
+                        customer service record and superb work ethic. Broadly and well verse in many different computer
+                        languages as well as the principles and techniques of website maintenance and construction. Highly
+                        adept at conveying complex technical information to a variety of professional and lay audiences in
+                        a clear and understandable manner.</p>
                 </li>
             </ul>
-        </div>
-    </div>
-</nav>
+        </section>
 
-    <section id="about">
-        <div class="conatainer">
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <img class="profilePic" src="images/michaelMorgan.jpg" alt="A Picture of Michael Morgan">
-                </div>
-                <P class="aboutIntro col-sm-8 col-xs-12"> Hi, My name is Michael Morgan.
-                I am a highly creative and dependable Junior Web Developer with a impeccable customer service record and superb work ethic.
-                Broadly and well verse in many different computer languages as well as the principles and techniques of website maintenance
-                and construction. Highly adept at conveying complex technical information to a variety of professional and lay audiences
-                in a clear and understandable manner.
-                </P>
-            </div>    
-        </div>
-    </section>
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <h2 class="col-xs-12">
-                My skills
-                </h2>
-                <hr class="lineBreak">
+        <!-- Skills Section -->
+        <!--
+        <section id="skills" class="grid">
+            <div class="content-wrap">
+                <div class="row">
+                    <h2 class="col-xs-12">
+                        My skills
+                    </h2>
+                    <hr class="lineBreak">
                     <p class="skills">
                         <ul>
                             <li>HTML</li>
@@ -73,112 +78,126 @@
                             <li>jQuery</li>
                         </ul>
                     </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <h2>Portfolio</h2>
-                <hr class="lineBreak">
-                <div class="portfolioImages">
-                    <div class="row">
-                        <div class="column col-md-6 col-sm-12">
-                            <div class="thumbnail">
-                                <img src="images/EmmittSmithTribute.png" 
-                        alt="Michael Morgan Emmitt Smith Tribute Page created with HTML and CSS.">
-                            </div>
-                        </div>
-                        <div class="column col-md-6 col-sm-12">
-                            <div class="thumbnail">
-                                <img src="images/ToDoList.png">
-                            </div>
-                        </div>
-                        <div class="column col-md-6 col-sm-12">
-                            <div class="thumbnail">
-                                <img src="images/comingSoon.jpg">
-                            </div>
-                        </div>
-                        <div class="column col-md-6 col-sm-12">
-                            <div class="thumbnail">
-                                <img src="images/comingSoon.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>        
-            </div>                                                  
-        </div>
-    
-
-    </section>
-    
-    <section id="quote">
-        <hr class="lineBreak">
-        <blockquote>
-            <div>
-                <em>"When love and skill work together, expect a masterpiece."</em> 
-            </div>    
-            <div class="conrad">
-                <em>-- John Ruskin --
-                </em>
-            </div>
-        </blockquote>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <h2>Contact Me</h2>     
-                <hr class="lineBreak">
-                <div class="contactIntro column col-sm-6 col-xs-12">
-                    If you want to contact me for a copy of my resume or if you have any questions. 
-                    Please don't hesitate to send me a message and 
-                    I will reply to you as soon as possible. 
-                    <br>
-                        Thanks for your time.
                 </div>
-                <form id="contactForm" class="col-sm-6 col-xs-12" action="">
-                    <div class="formItem">
-                        <label for="name">Name:</label>
-                        <input type="text" name="Name" required>
-                    </div>
-                    <div class="formItem">
-                        <label for="email">Email:</label>
-                        <input type="email" name="Email" required>
-                    </div>
-                    <div class="formItem">
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" columns="5" required></textarea>
-                    </div>
-                    <div class="formItem">
-                        <input type="submit" value="Submit">
-                    </div>    
-                </form>
             </div>
-        </div>        
-    </section>
-    
+        </section>
+        -->
 
-    <footer class="footer column-6">
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="grid">
+            <h2>My Portfolio</h2>
+            <hr>
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="images/EmmittSmithTribute.png">
+                        <div class="card-content">
+                            <h3 class="card-title">Tribute Page</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="images/ToDoList.png">
+                        <div class="card-content">
+                            <h3 class="card-title">My ToDo App</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="images/comingSoon.jpg">
+                        <div class="card-content">
+                            <h3 class="content-title"><em>Coming Soon</em></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="images/comingSoon.jpg">
+                        <div class="card-content">
+                            <h3 class="content-title"><em>Coming Soon</em></h3>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Quote Section -->
+        <section id="quote" class="grid">
+            <div class="content-wrap">
+                <div class="quote">
+                    <p>
+                        <em>"When love and skill work together, expect a masterpiece."</em>
+                    </p>
+                    <p class="conrad">
+                        <em>-- John Ruskin --</em>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="grid">
+            <div class="content-wrap">
+                <Ul>
+                    <h2>Contact Me</h2>
+                    <hr>
+                    <li>
+                        <div class="contactIntro column col-sm-6 col-xs-12">
+                            If you want to contact me for a copy of my resume or if you have any questions. Please don't hesitate to send me a message
+                            and I will reply to you as soon as possible.
+                            <br> Thanks for your time.
+                        </div>
+                    </li>
+                    <li>
+                        <form id="contactForm" class="col-sm-6 col-xs-12" action="">
+                            <div class="formItem">
+                                <label for="name">Name:</label>
+                                <input type="text" name="Name" required>
+                            </div>
+                            <div class="formItem">
+                                <label for="email">Email:</label>
+                                <input type="email" name="Email" required>
+                            </div>
+                            <div class="formItem">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" columns="5" required></textarea>
+                            </div>
+                            <div class="formItem">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </li>
+                </Ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="footer">
         <div id="footer-top">
             <div class="social-btn">
                 <ul>
                     <li>
-                        <a class="button social" 
-                    href="michael1986morgan@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-</a>
-                    </li>
-                    <li>
-                        <a class="button social" href="https://www.linkedin.com/in/michael-morgan-0a4408137/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        <a class="button social" href="michael1986morgan@gmail.com">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="button social" href="https://github.com/mmorgan86?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i>
+                        <a class="button social" href="https://www.linkedin.com/in/michael-morgan-0a4408137/">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="button social" href="https://www.freecodecamp.org/mmorgan86"><i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                        <a class="button social" href="https://github.com/mmorgan86?tab=repositories">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button social" href="https://www.freecodecamp.org/mmorgan86">
+                            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
@@ -189,9 +208,10 @@
         </div>
     </footer>
 
-    
+
     <script src="libs/jQuery/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
