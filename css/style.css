@@ -64,13 +64,6 @@ h2 {
 
 
 /* Portfolio Section */
-img {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    position: relative;
-}
 
 #portfolio{
     display: block; 
@@ -139,6 +132,9 @@ div .quote{
 }
 
 /* Contact Section */
+#contact{
+    padding-bottom: 20px;
+}
 .contactIntro, #contactForm {
     display: block;
     flex: wrap;
