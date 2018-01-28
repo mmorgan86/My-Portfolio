@@ -155,12 +155,12 @@ div .quote{
 footer .fa {
     font-size: 30px;
     padding: 10px;
-    color: black;
+    color: rgb(53, 64, 218);
 }
 
 .fa:hover {
     color: white;
-    background: black;
+    background: rgb(53, 64, 218);
 }
 
 
