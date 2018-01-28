@@ -57,9 +57,11 @@ h3{
 .profilePic {
     text-align: center;
     width: 240px;
+    box-shadow: 1px 1px 10px black;
     border-radius: 50px;
     padding-bottom: 0px;
-    box-shadow: 1px 1px 10px black;
+    margin-bottom: 30px;
+    
 }
 
 .content-text {
