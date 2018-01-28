@@ -23,6 +23,12 @@ nav {
     padding:0;
 }
 
+.navbar-brand{
+    font-family: 'Merriweather', serif;
+    display: block;
+    margin: 0;
+}
+
 hr{
     border-color: black;
     width: 20%;
