@@ -129,8 +129,9 @@ div .quote{
 }
 
 #contact label{
-    display: inline-block;
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /* footer */
 #footer-top ul{
