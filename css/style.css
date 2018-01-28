@@ -185,7 +185,7 @@ footer .fa {
     color: rgb(96, 96, 238);
 }
 
-.fa:hover {
+footer .fa:hover {
     color: white;
     background: rgb(96, 96, 238);
 }
