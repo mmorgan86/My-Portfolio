@@ -7,13 +7,11 @@ body {
     font-size: 24px;
     text-align: center;
 }
-
+ 
+/* container background */
 .container{
     background: white;
 }
-
-/** Navbar button color**/
-
 
 nav {
     background: rgb(0, 0, 0);
@@ -47,7 +45,6 @@ h3{
 .card-content {
     font-size: 20px;
 }
-
 
 /* About Secion */
 #about {
@@ -87,7 +84,6 @@ h3{
     list-style: none;
     color: black;
 }
-
 
 .card-title{
     font-style: italic;
@@ -142,6 +138,18 @@ div .quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.submit-btn{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.submit-btn:hover{
+    background: rgb(96, 96, 238);
+    color: white;
 }
 /* footer */
 #footer-top ul{
