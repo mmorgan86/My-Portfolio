@@ -40,6 +40,15 @@ h2 {
     text-shadow: 2px 2px 2px rgb(126, 126, 126);
 }
 
+h3{
+    text-decoration: underline;
+}
+/* text inside of my project header */
+.card-content {
+    font-size: 20px;
+}
+
+
 /* About Secion */
 #about {
     color: black;
