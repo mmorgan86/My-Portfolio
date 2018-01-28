@@ -64,7 +64,7 @@ h3{
 }
 
 .content-text {
-    text-align: center;
+    text-align: left;
 }
 
 /* Portfolio Section */
@@ -91,6 +91,10 @@ h3{
     font-weight: bold;
 }
 
+.percent li{
+    display: inline-block;
+    margin: 0 5px;
+}
 /* Portfolio images */
 #portfolio img {
     display: inline-block;
@@ -99,6 +103,9 @@ h3{
     margin:0;
 }
 
+#portfolio img:hover{
+    opacity: 0.8;
+}
 
 
 /* Quote Section */
@@ -155,12 +162,12 @@ div .quote{
 footer .fa {
     font-size: 30px;
     padding: 10px;
-    color: rgb(53, 64, 218);
+    color: rgb(96, 96, 238);
 }
 
 .fa:hover {
     color: white;
-    background: rgb(53, 64, 218);
+    background: rgb(96, 96, 238);
 }
 
 
