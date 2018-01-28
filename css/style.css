@@ -11,6 +11,7 @@ body {
 /* container background */
 .container{
     background: white;
+    margin: 0 auto;
 }
 
 nav {
