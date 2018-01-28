@@ -113,7 +113,7 @@ h3{
 }
 
 div .quote{
-    margin: 0;
+    margin: 50px;
     font-size: 30px;
     width: 88%;
     text-align: center;
@@ -139,7 +139,7 @@ div .quote{
     flex-direction: column;
     justify-content: center;
 }
-
+/* submit button color and hover */
 .submit-btn{
     border-radius: 50px;
     box-shadow: 1px 1px 5px black;
