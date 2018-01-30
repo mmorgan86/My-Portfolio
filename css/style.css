@@ -16,14 +16,14 @@ body {
 
 /* navbar color */
 .navbar{
-    background: rgba(96, 96, 238, 0.6);
+    background: rgba(55, 91, 183, 0.6);
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
-    color:rgb(96, 96, 238);
+    color:rgb(55, 91, 183);
     background: white;
 }
 
@@ -31,7 +31,7 @@ body {
     color: white;
 }
 .navbar-inverse .navbar-brand:hover{
-    color:rgb(96, 96, 238);
+    color:rgb(55, 91, 183);
     background: white;   
 }
 
@@ -62,7 +62,7 @@ hr{
 h2 {
     margin: 0;
     padding-top: 3em;
-    color: rgb(96, 96, 238);
+    color: rgb(55, 91, 183);
     font-family: 'Merriweather', serif;
     font-weight: bold;
     letter-spacing: 0.05em;
@@ -185,7 +185,7 @@ div .quote{
 }
 
 .submit-btn:hover{
-    background: rgb(96, 96, 238);
+    background: rgb(55, 91, 183);
     color: white;
 }
 /* footer */
@@ -196,7 +196,7 @@ div .quote{
 
 #footer-bottom {
     color: white;
-    background-color: rgb(96, 96, 238);
+    background-color: rgb(55, 91, 183);
     padding: 15px 0;
     text-align: center;  
     font-size: 15px;  
@@ -210,12 +210,12 @@ div .quote{
 footer .fa {
     font-size: 30px;
     padding: 10px;
-    color: rgb(96, 96, 238);
+    color: rgb(55, 91, 183);
 }
 
 footer .fa:hover {
     color: white;
-    background: rgb(96, 96, 238);
+    background: rgb(55, 91, 183);
 }
 
 
