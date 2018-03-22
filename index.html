@@ -19,6 +19,7 @@
     <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
+                <div class="navbar-image"></div>
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navBar" aria-expanded="false">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -29,13 +30,19 @@
             <div class="collapse navbar-collapse" id="navBar">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about"><i class="fa fa-home" aria-hidden="true"> ABOUT</i></a>
+                        <a href="#about">
+                            <i class="fa fa-home" aria-hidden="true"> ABOUT</i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#projects"><i class="fa fa-folder-o" aria-hidden="true"> PORTFOLIO</i></a>
+                        <a href="#projects">
+                            <i class="fa fa-folder-o" aria-hidden="true"> PORTFOLIO</i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#contact"><i class="fa fa-id-card-o" aria-hidden="true"> CONTACT</i></a>
+                        <a href="#contact">
+                            <i class="fa fa-id-card-o" aria-hidden="true"> CONTACT</i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +53,7 @@
     <main id="main" class="container-fluid">
         <!-- About Section -->
         <section id="about" class="container">
+            <div class="background-image"></div>
             <div class="aboutUl">
                 <div class="profile-pic col-md-4 col=sm-12">
                     <img class="profilePic" src="images/michaelMorgan.jpg" alt="A Picture of Michael Morgan, a web developer">
@@ -53,14 +61,18 @@
                 <div id="welcome-section" class="content-text col-md-8 col-sm-12">
                     <h1 align="center">Who is Michael Morgan?</h1>
                     <ul>
-                        <li>I am a highly creative and dependable web developer with an impeccable customer service record and superb work ethic.
-                        </li> 
-                        <li>I am well-versed in many programming languages as well as the principles and techniques of website maintenance and construction.
+                        <li>I am a highly creative and dependable web developer with an impeccable customer service record and
+                            superb work ethic.
                         </li>
-                        <li>I am highly adept at presenting complex technical information to both professional and lay audiences in a clear and understandable manner.
-                        </li>    
+                        <li>I am well-versed in many programming languages as well as the principles and techniques of website
+                            maintenance and construction.
+                        </li>
+                        <li>I am highly adept at presenting complex technical information to both professional and lay audiences
+                            in a clear and understandable manner.
+                        </li>
                     </ul>
                 </div>
+
             </div>
         </section>
 
@@ -93,7 +105,7 @@
             <hr>
             <p>Please click a image below to view the actual project.</p>
             <div class="row">
-                <div  class="project-tile card col-lg-6 col-md-6 col-sm-12">
+                <div class="project-tile card col-lg-6 col-md-6 col-sm-12">
                     <h3 class="card-title">Tribute Page</h3>
                     <ul class="percent">
                         <li>92% HTML</li>
@@ -129,7 +141,7 @@
                 </div>
                 <div class="project-tile card col-lg-6 col-md-6 col-sm-12">
                     <h3 class="card-title">Landing Page</h3>
-                    <ul class="percent">                        
+                    <ul class="percent">
                         <li>63% HTML</li>
                         <li>37% CSS</li>
                     </ul>
@@ -178,13 +190,16 @@
                     <h2>Contact Me</h2>
                     <hr>
                     <div class="contactIntro column col-sm-6 col-xs-12">
-                         If you want to contact me or if you have any questions. Please don't hesitate to send me a message and I will reply as soon as possible.
+                        If you want to contact me or if you have any questions. Please don't hesitate to send me a message and I will reply as soon
+                        as possible.
                         <hr>
-                        <p><strong>Email:</strong> Michael1986Morgan@gmail.com</p>
+                        <p>
+                            <strong>Email:</strong> Michael1986Morgan@gmail.com</p>
                     </div>
 
                     <div>
-                        <form id="contactForm" class="col-sm-6 col-xs-12" method="post" action="mailto:michael1986morgan@gmail.com" value="Send Email" enctype="text/plain">
+                        <form id="contactForm" class="col-sm-6 col-xs-12" method="post" action="mailto:michael1986morgan@gmail.com" value="Send Email"
+                            enctype="text/plain">
                             <div class="formItem">
                                 <label for="name">Name:</label>
                                 <input type="text" name="Name" required>
@@ -238,4 +253,5 @@
     <script src="libs/jQuery/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
 </html>

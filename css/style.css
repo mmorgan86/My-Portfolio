@@ -14,6 +14,18 @@ body {
     margin: 0 auto;
 }
 
+/* navbar image */
+.navbar-image {
+    background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1305/maxkabakov130500462/19820387-web-development-concept-computer-keyboard-with-word-web-development-on-enter-button-background-3d-re.jpg");
+    background-size: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+}
+
 /* navbar color */
 .navbar{
     background: rgba(55, 91, 183, 0.6);
@@ -58,7 +70,6 @@ hr{
 }
 
 /* Main Section container */
-
 h2 {
     margin: 0;
     padding-top: 3em;
@@ -81,14 +92,31 @@ h3{
 /* About Secion */
 #welcome-section {
     height: 100vh;
+    z-index: 2;
 }
 
 #about {
     color: black;
     padding-top: 200px;
     height: 100%;
+    margin-bottom: 0;
 }
 
+/*.background-image {
+    background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1305/maxkabakov130500462/19820387-web-development-concept-computer-keyboard-with-word-web-development-on-enter-button-background-3d-re.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+}
+*/
 .profilePic {
     text-align: center;
     width: 240px;
@@ -99,8 +127,10 @@ h3{
     position: relative;
     animation-name: profilePic;
     animation-duration: 1.5s;  
+    z-index: 2;
 }
 
+/* profile pic sliding effect */
 @keyframes profilePic{
     0% {
         right: 100%;
@@ -115,6 +145,7 @@ h3{
 
 /* welcome section */
 .content-text > h1{
+    color: black;
     text-decoration: underline;
 }
 
@@ -198,6 +229,7 @@ div .quote{
 }
 /* submit button color and hover */
 .submit-btn{
+    cursor: pointer;
     border-radius: 50px;
     box-shadow: 1px 1px 5px black;
     margin-top: 20px;
