@@ -1,4 +1,8 @@
 
+/* change box-size to border box */
+body * {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -81,8 +85,8 @@ h3{
 
 /* About Secion */
 #welcome-section {
-    height: 100vh;
-    background: url(images\codeCoffee.jpg) !important;
+    height: 100%;
+    width: 100%;
 }
 
 #about {
@@ -103,6 +107,7 @@ h3{
     animation-duration: 1.5s;  
 }
 
+/* Profile pic animation */
 @keyframes profilePic{
     0% {
         right: 100%;
@@ -160,10 +165,12 @@ h3{
     max-height: 100%;
     margin:0;
     vertical-align: top;
+    z-index: 0;
 }
 
 #projects img:hover{
-    opacity: 0.8;
+    filter: grayscale(100%);
+    opacity: 0.2;
 }
 
 /* style profile buttons */
@@ -171,23 +178,25 @@ h3{
     text-align: center;
     background-color: rgba(55, 91, 183, 0.6);
     color: white;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10%;
     letter-spacing: 1.5px;
 }
 
 .profile_btn {
+    position: absolute;
+    top: 50%;
     width: 100%;
     height: 100%;
-    text-align: center;
+    opacity: 1;   
 }
 
 .profile_btn:hover {
-    opacity: 1;
-}
+    opacity: 1;   
+} 
 
 /* Quote Section */
-#quote{
+#quote {
     background: rgba(233, 233, 233, 0.945);
 }
 
@@ -245,7 +254,7 @@ div .quote{
 }
 
 /* Social Buttons */
-.social-btn li{
+.social-btn li {
     display: inline-block;
 }
 
@@ -265,6 +274,10 @@ footer .fa:hover {
 /* button size over images */
 @media only screen and (max-width: 650px) {
     .btn_percentage {
+        font-size: 16px;
+    }
+
+    body {
         font-size: 16px;
     }
 }
