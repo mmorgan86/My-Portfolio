@@ -37,7 +37,8 @@ body {
 }
 .navbar-inverse .navbar-brand:hover{
     color:rgb(55, 91, 183);
-    background: white;   
+    background: white; 
+    
 }
 
 
@@ -89,17 +90,20 @@ h3{
 }
 
 #about {
+    display: inline-block;
     color: black;
     padding-top: 200px;
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 1.2em;
 }
 
 .profilePic {
+    display: block;
     text-align: center;
     width: 240px;
     box-shadow: 1px 1px 10px black;
     border-radius: 50px;
-    padding-bottom: 0px;
+    /* padding-bottom: 0px; */
     position: relative;
     animation: profilePic 1.5s;
 }
@@ -131,7 +135,7 @@ h3{
 #projects {
     display: block; 
     background: rgba(233, 233, 233, 0.945);
-    padding-bottom: 40px;
+    /* padding: 4em 0; */
 }
 
 
@@ -189,9 +193,9 @@ h3{
     opacity: 1;   
 }
 
-/* .profile_btn:hover {
-    opacity: 1;   
-}  */
+.profile_btn:hover {
+    animation: slowFadeIn 2s ease-in;
+} 
 
 /* Quote Section */
 #quote {
@@ -199,7 +203,7 @@ h3{
 }
 
 div .quote{
-    margin: 50px;
+    margin: 50px 0px;
     font-size: 30px;
     width: 88%;
     text-align: center;
@@ -286,6 +290,14 @@ buttons to fade in(html, js, css and etc)  */
     }  
 }
 
+@keyframes slowFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 /**********************************************
 ***********************************************
