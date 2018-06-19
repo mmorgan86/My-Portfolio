@@ -13,7 +13,7 @@ body {
     font-size: 24px;
     text-align: center;
 }
- 
+
 /* container background */
 .container{
     background: white;
@@ -38,11 +38,9 @@ body {
 }
 .navbar-inverse .navbar-brand:hover{
     color:rgb(55, 91, 183);
-    background: white; 
-    
+    background: white;
+
 }
-
-
 
 nav {
     background: rgb(0, 0, 0);
@@ -119,7 +117,7 @@ h3{
 
 /* Portfolio Section */
 #projects {
-    display: block; 
+    display: block;
     background: rgba(233, 233, 233, 0.945);
 }
 
@@ -159,6 +157,11 @@ h3{
     filter: grayscale(100%);
     opacity: 0.2;
     animation: slowFadeOut 2s forwards;
+}
+
+/* project comming soon image display */
+.coming_soon {
+  display: none;
 }
 
 /* style profile buttons */
@@ -236,8 +239,8 @@ div .quote{
     color: white;
     background-color: rgb(55, 91, 183);
     padding: 15px 0;
-    text-align: center;  
-    font-size: 15px;  
+    text-align: center;
+    font-size: 15px;
 }
 
 /* Social Buttons */
@@ -274,7 +277,7 @@ footer .fa:hover {
     }
 }
 
-/* Allows my projects images to fade out and the 
+/* Allows my projects images to fade out and the
 buttons to fade in(html, js, css and etc)  */
 @keyframes slowFadeOut {
     0% {
@@ -284,7 +287,7 @@ buttons to fade in(html, js, css and etc)  */
     100% {
         opacity: 0.3;
         transform: scale(1.1);
-    }  
+    }
 }
 
 /* html, css, etc buttons fade in */
